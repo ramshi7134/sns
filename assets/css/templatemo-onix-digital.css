@@ -299,11 +299,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff685f!important;
+  color: #163C64!important;
 }
 
 .background-header .nav li a.active {
-  color: #ff685f!important;
+  color: #163C64!important;
 }
 
 .header-area {
@@ -409,12 +409,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #163C64!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #163C64!important;
   opacity: 1;
 }
 
@@ -476,7 +476,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ff685f!important;
+  color: #163C64!important;
   padding-left: 25px;
 }
 
@@ -616,7 +616,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff685f;
+  color: #163C64;
 }
 
 @media (max-width: 1200px) {
@@ -649,7 +649,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff685f!important;
+    color: #163C64!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -710,7 +710,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ff685f!important;
+    color: #163C64!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -934,8 +934,9 @@ Banner Style
   text-align: center;
   line-height: 46px;
   border-radius: 50%;
-  background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: rgb(30,87,153);
+  background: linear-gradient(105deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
+  border-radius: 50%;
   color: #fff;
   font-size: 20px;
 }
@@ -967,8 +968,8 @@ Banner Style
 }
 
 .main-banner .active:before {
-  color: #ff685f;
-  border-bottom: 3px solid #ff685f;
+  color: #163C64;
+  border-bottom: 3px solid #163C64;
 }
 
 
@@ -1587,7 +1588,7 @@ Video
 
 .our-videos .nacc .thumb .overlay-effect {
   background: rgb(30,87,153);
-  background: -moz-linear-gradient(top, rgb(30,87,153) 0%, rgb(41,137,216) 50%, rgb(32,124,202) 51%, rgb(125,185,232) 100%); 
+  background: linear-gradient(105deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1616,8 +1617,8 @@ Video
 }
 
 .our-videos .menu .thumb .inner-content {
-  background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: rgb(30,87,153);
+  background: linear-gradient(105deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   position: absolute;
@@ -1705,8 +1706,8 @@ contact
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+  background: rgb(30,87,153);
+  background: linear-gradient(105deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;
@@ -1715,7 +1716,7 @@ contact
 }
 
 .contact-us .info span a {
-  color: #ff685f;
+  color: #163C64;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
